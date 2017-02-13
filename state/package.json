@@ -1,0 +1,12 @@
+{
+  "name": "@statex/state",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/state.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next-tick": "^1.0.0"
+  }
+}

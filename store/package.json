@@ -1,0 +1,17 @@
+{
+  "name": "@statex/store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/store.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@statex/diff": "*",
+    "@statex/proxy": "*",
+    "@statex/state": "*",
+    "lodash": "^4.17.4"
+  }
+}

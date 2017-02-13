@@ -1,0 +1,20 @@
+logs
+*.log
+npm-debug.log*
+
+pids
+*.pid
+*.seed
+
+node_modules
+dist
+bin
+
+.npm
+.node_repl_history
+
+# Idea
+*.iml
+.idea/
+*.ipr
+*.iws

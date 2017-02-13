@@ -1,0 +1,14 @@
+{
+  "name": "@statex/proxy",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/proxy.js",
+  "scripts": {
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+  }
+}

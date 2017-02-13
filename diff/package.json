@@ -1,0 +1,14 @@
+{
+  "name": "@statex/diff",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/diff.js",
+  "scripts": {
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deep-diff": "^0.3.4"
+  }
+}
