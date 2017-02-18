@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/simple.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "npm install",
+    "test": "../.npm-packages/bin/babel-node node_modules/.bin/jasmine"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +15,9 @@
     "@statex/state": "*",
     "@statex/store": "*",
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0",
+    "jasmine": "^2.5.3"
   }
 }

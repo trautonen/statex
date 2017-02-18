@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/proxy.js",
   "scripts": {
-
+    "init": "npm install"
   },
   "author": "",
   "license": "ISC",

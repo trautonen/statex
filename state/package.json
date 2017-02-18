@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "",
   "main": "src/state.js",
-  "scripts": {},
+  "scripts": {
+    "init": "npm install"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

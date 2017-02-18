@@ -1,0 +1,18 @@
+{
+  "name": "statex",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "global": "npm install --global npm-run-all babel-cli",
+    "link": "./link.sh",
+    "init:diff": "cd diff && npm run init",
+    "init:proxy": "cd proxy && npm run init",
+    "init:state": "cd state && npm run init",
+    "init:store": "cd store && npm run init",
+    "init:simple": "cd simple && npm run init",
+    "init": "npm run global && .npm-packages/bin/npm-run-all link init:diff init:proxy init:state init:store init:simple"
+  },
+  "author": "",
+  "license": "ISC"
+}
