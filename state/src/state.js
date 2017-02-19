@@ -22,7 +22,7 @@ function createState(options = {}) {
   }
 
   if (!isFunction(clone)) {
-    throw new Error('proxy is not defined');
+    throw new Error('clone is not defined');
   }
 
   let states = [];
